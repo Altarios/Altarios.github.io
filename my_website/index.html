@@ -1,20 +1,41 @@
- <head>
-    <style>
-      #picture {
-        text-align: center;
-      }
-    </style>
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <audio id="hey, that's pretty good" src="hey, that's pretty good.mp3"></audio>
+<button onclick="document.getElementById('hey, that's pretty good').play()">Hey, that's pretty good</button>
+   <style>
+body {
+    background-color: linen;
+}
+h1 {
+    color: pink;
+    margin-left: 50px;
+    text-align: center;
+}
+.rainbow-text {                                                                                                                                                                           
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-gradient(linear,  left top,  left bottom, 
+        color-stop(0.00, red), 
+        color-stop(16%, orange),
+        color-stop(32%, yellow),
+        color-stop(48%, green),
+        color-stop(60%, blue),
+        color-stop(76%, indigo),
+        color-stop(1.00, violet));
+  }
+</style>
     <meta charset="utf-8">
     <title>Anthopedia</title>
   </head>
   <body text="aqua" background="http://rs301.pbsrc.com/albums/nn76/didi_tiruray/checkered-4.gif~c200">
+    <div id="rainbow"></div>
     <a href="index.html">Anthopedia Home</a>
     <a href="portfolio.html">Portfolio</a>
     <h1 align="center">
     Anthopedia
     </h1>
-    <audio id="hey, thats pretty good" src="hey, thats pretty good.mp3"></audio>
-    <button onclick="document.getElementById('hey, thats pretty good').play()">Hey, that's pretty good</button>
     <p align="center">Hello, my name is Anthony. I'm a senior at Tumwater high school and this is my first website!</p>
     <hr />
     <div id="picture">
@@ -28,4 +49,3 @@
     
   </body>
 </html>
-
